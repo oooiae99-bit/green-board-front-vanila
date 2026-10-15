@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>그린 게시판</title>
+        <title>게시판</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <!--헤더 영역-->
             <a class="brand" href="index.html">게시판</a>
             <nav>
                 <a href="index.html">게시판</a>
@@ -19,16 +19,15 @@
             <h1>글쓰기</h1>
             <form id="post-form">
                 <label>제목</label>
-                <input id="title" type="text" readonly>
+                <input id="title" type="text" required>
                 <label>본문</label>
                 <textarea id="content" required></textarea>
-                <button> tyqe="submit">게시글 등록</button>
+                <button type="submit">게시글 등록</button>
                 <a href="index.html">목록으로</a>
             </form>
-            <main>
-                <footer>
-
-                </footer>
-            </main>
-            </body>
+        </main>
+        <footer>
+            게시판 실습
+        </footer>
+    </body>
 </html>
